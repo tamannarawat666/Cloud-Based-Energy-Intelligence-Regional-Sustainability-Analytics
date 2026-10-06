@@ -224,13 +224,7 @@ The dashboard is designed to make regional sustainability comparisons easier for
 
 ### Dashboard Preview
 
-![Looker Studio Dashboard](dashboard/looker_dashboard.png)
-
-### 🔗 Live Dashboard
-
-Add your published Looker Studio dashboard link here:
-
-**[View Interactive Looker Studio Dashboard](YOUR_LOOKER_STUDIO_LINK)**
+https://github.com/tamannarawat666/Cloud-Based-Energy-Intelligence-Regional-Sustainability-Analytics/blob/main/Cloud%20Project/cloud%20dashboard.png
 
 ---
 
@@ -250,29 +244,6 @@ The analysis should be treated as **one decision input**, rather than the sole f
 
 ---
 
-# 📁 Repository Structure
-
-```text
-cloud-energy-intelligence/
-│
-├── README.md
-│
-├── bigquery/
-│   ├── 01_energy_clean.sql
-│   ├── 02_regional_sustainability_analysis.sql
-│   └── 03_regional_sustainability_score.sql
-│
-├── python/
-│   └── energy_analysis.ipynb
-│
-├── dashboard/
-│   └── looker_dashboard.png
-│
-└── docs/
-    └── project_architecture.png
-```
-
----
 
 # 🚀 Project Workflow
 
@@ -320,10 +291,3 @@ This project demonstrates practical skills in:
 
 ---
 
-# 👩‍💻 Author
-
-**Tamanna Rawat**
-
-Data Analyst | Cloud Analytics | SQL | Python | Power BI | Looker Studio
-
-GitHub: `tamannarawat666`
