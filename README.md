@@ -2,39 +2,42 @@
 
 ## 📌 Project Overview
 
-This project analyzes **Google Cloud's carbon-free energy (CFE) and grid carbon intensity data** to evaluate regional sustainability performance and identify regions with cleaner energy profiles.
+This project analyzes **Google Cloud carbon-free energy (CFE) and grid carbon intensity data** to evaluate regional sustainability performance and identify regions with cleaner energy profiles.
 
-The project uses **Google BigQuery** for cloud-based data preparation and SQL analysis, **Python** for statistical analysis and correlation studies, and **Looker Studio** to build an interactive sustainability analytics dashboard.
+The project combines **Google BigQuery, SQL, Python, Pandas, NumPy, and Looker Studio** to transform cloud-energy data into meaningful regional insights and an interactive sustainability dashboard.
 
-The goal is to transform raw cloud-energy data into **clear, data-driven insights that can support sustainability and cloud infrastructure decisions**.
+The goal is to demonstrate how **cloud analytics and data visualization can support sustainability-focused infrastructure decisions**.
 
 ---
 
 ## 🎯 Business Problem
 
-As cloud infrastructure continues to grow, organizations need to understand the environmental impact of the regions where their workloads operate.
+As cloud infrastructure continues to expand, organizations increasingly need to consider the environmental impact of the regions in which their workloads operate.
 
-Simply looking at energy consumption is not enough. The sustainability of a region can also depend on:
+Regional sustainability can be influenced by factors such as:
 
-* Availability of carbon-free energy
+* Carbon-free energy availability
 * Grid carbon intensity
 * Regional differences in energy sources
 * Changes in clean-energy availability over time
 
-This project addresses the following questions:
+This project explores the following questions:
 
 1. Which regions have the highest sustainability scores?
 2. How does Carbon-Free Energy (CFE) vary across regions?
 3. Which regions have lower grid carbon intensity?
-4. Is there a relationship between CFE and grid carbon intensity?
-5. Which regions appear more suitable from a sustainability perspective?
+4. What relationship exists between CFE and grid carbon intensity?
+5. Which regions demonstrate stronger sustainability performance?
 
 ---
 
 ## 🏗️ Project Architecture
 
 ```text
-Google Cloud / BigQuery Data
+Google Cloud Public Dataset
+            │
+            ▼
+        BigQuery
             │
             ▼
       energy_clean
@@ -45,37 +48,37 @@ regional_sustaninability_analysis
             ▼
 regional_sstainability_score
             │
-            ├──────────────► Python Analysis
-            │
+       ┌────┴────┐
+       ▼         ▼
+    Python    Looker Studio
+    Analysis   Dashboard
+       │         │
+       └────┬────┘
             ▼
-       Looker Studio
-            │
-            ▼
-Regional Sustainability
-       Dashboard
+   Sustainability Insights
 ```
 
 ---
 
 ## 🛠️ Technology Stack
 
-| Technology                | Purpose                                             |
-| ------------------------- | --------------------------------------------------- |
-| **Google Cloud BigQuery** | Cloud-based data storage and SQL analysis           |
-| **SQL**                   | Data cleaning, transformation and regional analysis |
-| **Python**                | Statistical analysis and correlation analysis       |
-| **Pandas / NumPy**        | Data manipulation and numerical analysis            |
-| **Looker Studio**         | Interactive dashboard and data visualization        |
-| **Jupyter Notebook**      | Python-based analysis                               |
-| **GitHub**                | Version control and project documentation           |
+| Technology                | Purpose                                              |
+| ------------------------- | ---------------------------------------------------- |
+| **Google Cloud BigQuery** | Cloud-based data storage and analysis                |
+| **SQL**                   | Data cleaning, transformation, and regional analysis |
+| **Python**                | Statistical and exploratory analysis                 |
+| **Pandas / NumPy**        | Data manipulation and numerical analysis             |
+| **Looker Studio**         | Interactive dashboard and visualization              |
+| **Jupyter Notebook**      | Python-based analysis                                |
+| **GitHub**                | Project documentation and version control            |
 
 ---
 
 ## 📊 Dataset
 
-The project uses Google Cloud carbon-free energy and grid carbon-intensity data.
+The project uses the **Google Cloud Carbon-Free Energy dataset** available through BigQuery's public datasets.
 
-### Important fields
+### Important Fields
 
 | Field                   | Description                              |
 | ----------------------- | ---------------------------------------- |
@@ -87,43 +90,45 @@ The project uses Google Cloud carbon-free energy and grid carbon-intensity data.
 | `google_cfe`            | Carbon-free energy percentage            |
 | `grid_carbon_intensity` | Carbon intensity of the electricity grid |
 
-The dataset contains regional observations across **2019–2024**.
+The dataset contains regional observations covering **2019–2024**.
 
 ---
 
 # ☁️ BigQuery Data Processing
 
-The project uses three BigQuery tables:
+The project uses three analytical BigQuery tables.
 
 ### 1. `energy_clean`
 
-The cleaned base dataset used for downstream analysis.
+A cleaned version of the source dataset used for downstream analysis.
 
 ```text
-Raw Data
-   ↓
-energy_clean
+Google Cloud Public Dataset
+            ↓
+       energy_clean
 ```
+
+The cleaning process also creates data-status fields for CFE and grid-carbon values.
 
 ---
 
 ### 2. `regional_sustaninability_analysis`
 
-This table contains the regional-level analysis derived from the cleaned energy data.
+A regional analytical table derived from the cleaned data.
 
 ```text
 energy_clean
-     ↓
+      ↓
 regional_sustaninability_analysis
 ```
 
-The analysis focuses on regional CFE and grid carbon-intensity characteristics.
+This analysis focuses on regional CFE and grid carbon-intensity characteristics.
 
 ---
 
 ### 3. `regional_sstainability_score`
 
-This table contains the calculated regional sustainability scores used for ranking and dashboard visualization.
+A regional scoring table used for sustainability ranking and dashboard visualization.
 
 ```text
 regional_sustaninability_analysis
@@ -131,13 +136,13 @@ regional_sustaninability_analysis
 regional_sstainability_score
 ```
 
-> Note: The table names above intentionally match the names used in the BigQuery project.
+> The table names above match the names used in the BigQuery project.
 
 ---
 
 # 🐍 Python Analysis
 
-Python was used to perform additional analysis after the BigQuery transformations.
+Python was used for additional analysis and statistical exploration after the BigQuery transformations.
 
 Key analysis included:
 
@@ -148,9 +153,9 @@ Key analysis included:
 * Correlation analysis
 * Data preparation for visualization
 
-### Example finding
+### Correlation Analysis
 
-The correlation between CFE and grid carbon intensity was approximately:
+The calculated correlation between CFE and grid carbon intensity was approximately:
 
 ```text
 -0.78
@@ -162,13 +167,13 @@ This indicates a **strong negative relationship** in the analyzed data: regions 
 
 # 📈 Key Findings
 
-### 1. Sustainability varies significantly by region
+### 1. Regional sustainability varies significantly
 
-The sustainability score differs considerably across regions, showing that cloud infrastructure location can have an important environmental dimension.
+The sustainability scores differ across regions, highlighting that cloud-region selection can have an environmental dimension in addition to traditional infrastructure considerations.
 
-### 2. CFE improved over time
+### 2. Average CFE increased toward 2024
 
-The average CFE percentage across the available data was approximately:
+The calculated average CFE values were:
 
 | Year | Average CFE |
 | ---- | ----------: |
@@ -179,15 +184,15 @@ The average CFE percentage across the available data was approximately:
 | 2023 |      54.35% |
 | 2024 |      56.92% |
 
-Overall, the data shows an upward trend in average CFE toward 2024, despite year-to-year variation.
+Although there is year-to-year variation, the data shows an overall increase in average CFE toward 2024.
 
-### 3. Strong relationship between CFE and grid carbon intensity
+### 3. CFE and grid carbon intensity show a strong negative relationship
 
-The calculated correlation was approximately **-0.78**, indicating that higher CFE is strongly associated with lower grid carbon intensity in the analyzed data.
+The correlation of approximately **-0.78** indicates that higher CFE is strongly associated with lower grid carbon intensity in the analyzed dataset.
 
-### 4. Top-performing regions
+### 4. High-performing regions
 
-The 2024 sustainability analysis identified regions such as:
+The 2024 sustainability analysis identified regions including:
 
 * Sweden
 * Norway
@@ -220,11 +225,11 @@ The final dashboard provides an interactive view of regional sustainability perf
 * **Regional Sustainability Performance**
 * **CFE vs Grid Carbon Intensity correlation analysis**
 
-The dashboard is designed to make regional sustainability comparisons easier for business and infrastructure decision-making.
-
 ### Dashboard Preview
 
-https://github.com/tamannarawat666/Cloud-Based-Energy-Intelligence-Regional-Sustainability-Analytics/blob/main/Cloud%20Project/cloud%20dashboard.png
+![Cloud-Based Energy Intelligence Dashboard](Cloud%20Project/cloud%20dashboard.png)
+
+The dashboard enables users to compare regional sustainability performance and identify patterns between carbon-free energy availability and grid carbon intensity.
 
 ---
 
@@ -234,42 +239,67 @@ The analysis can support organizations when considering the sustainability dimen
 
 Potential applications include:
 
-* Comparing cloud regions based on environmental indicators
+* Comparing cloud regions using environmental indicators
 * Identifying regions with stronger carbon-free energy availability
 * Monitoring changes in regional clean-energy performance
 * Supporting sustainability-focused infrastructure decisions
-* Providing data for internal carbon and sustainability reporting
+* Providing data for internal sustainability reporting
 
-The analysis should be treated as **one decision input**, rather than the sole factor for selecting a cloud region, since cost, latency, availability, compliance, security and workload requirements also matter.
+Sustainability should be considered alongside other cloud-region selection factors such as **cost, latency, availability, compliance, security, and workload requirements**.
 
 ---
-
 
 # 🚀 Project Workflow
 
 ```text
-1. Obtain cloud energy data
-          ↓
-2. Clean and prepare data in BigQuery
-          ↓
-3. Perform SQL-based regional analysis
-          ↓
-4. Calculate sustainability scores
-          ↓
-5. Export/use analytical data for Python
-          ↓
-6. Perform statistical and correlation analysis
-          ↓
-7. Build Looker Studio dashboard
-          ↓
-8. Generate sustainability insights
+1. Access Google Cloud public energy data
+              ↓
+2. Explore and validate the dataset
+              ↓
+3. Clean and prepare data in BigQuery
+              ↓
+4. Perform SQL-based regional analysis
+              ↓
+5. Calculate regional sustainability scores
+              ↓
+6. Analyze results using Python
+              ↓
+7. Perform correlation analysis
+              ↓
+8. Build Looker Studio dashboard
+              ↓
+9. Generate business insights
+```
+
+---
+
+# 📁 Repository Structure
+
+```text
+Cloud-Based-Energy-Intelligence-Regional-Sustainability-Analytics/
+│
+├── README.md
+│
+├── Cloud Project/
+│   └── cloud dashboard.png
+│
+├── data/
+│   ├── energy_clean.csv
+│   ├── regional_sustaninability_analysis.csv
+│   └── regional_sstainability_score.csv
+│
+├── bigquery/
+│   ├── 01_data_exploration.sql
+│   ├── 02_energy_clean.sql
+│   └── 03_regional_analysis.sql
+│
+└── python/
+    └── energy_analysis.ipynb
 ```
 
 ---
 
 # 🎓 Skills Demonstrated
-
-This project demonstrates practical skills in:
 
 * Cloud Analytics
 * Google Cloud Platform
@@ -290,4 +320,5 @@ This project demonstrates practical skills in:
 * Sustainability Analytics
 
 ---
+
 
