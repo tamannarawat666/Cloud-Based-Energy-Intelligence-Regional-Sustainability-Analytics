@@ -1,0 +1,55 @@
+region_id,region_name,cloud_region,scored_year,cfe_percent,grid_carbon_intensity,cfe_change_percentage_points,sustainability_score
+SE,Sweden,europe-north2,2024,100,2.73,,100
+NO,Norway,non-cloud-data-center,2024,100,6.11,,99.81
+CH,Switzerland,europe-west6,2024,98,15.05,6,88.61
+CA-QC,Quebec,northamerica-northeast1,2024,99,5.48,-1,87.38
+FR,France,europe-west9,2024,96,16.3,2,86.32
+FI,Finland,europe-north1,2024,98,39.32,0,85.68
+ES,Spain,europe-southwest1,2024,87,89.04,11,81.36
+DK,Denmark,non-cloud-data-center,2024,91,70.4,-1,80.5
+US-NW-BPAT,BPA,us-west1,2024,87,79.23,3,79.34
+BR-CS,Central Brazil,southamerica-east1,2024,88,67.32,-2,78.83
+CA-ON,Ontario,northamerica-northeast2,2024,84,58.56,-3,76.91
+US-TEX-ERCO,ERCOT,us-south1,2024,94,302.95,15,76.6
+BE,Belgium,europe-west1,2024,84,103.37,2,76.46
+CL-SEN,Chile,southamerica-west1,2024,92,238,1,74.17
+IT,Italy,europe-west12,2024,73,201.69,21,72.44
+NL,Netherlands,europe-west4,2024,83,208.81,3,71.59
+GB,Great Britain,europe-west2,2024,79,105.94,-13,69.23
+US-NW-NEVP,NVE,us-west4,2024,64,357.3,38,66.27
+US-CENT-SWPP,SPP,us-central2,2024,88,372.23,1,66.22
+US-CAL-CISO,CAISO,us-west2,2024,63,169.28,8,64.88
+US-MIDW-MISO,MISO,us-central1,2024,87,412.72,-8,61.15
+US-CAR-DUK,DUKE,non-cloud-data-center,2024,65,245.07,2,60.67
+US-MIDA-PJM,PJM,us-east4,2024,62,323.05,10,58.17
+US-SW-SRP,AZ-SRP,non-cloud-data-center,2024,52,243.46,,56.65
+US-TEN-TVA,TVA,us-east7,2024,63,310.28,-2,55.54
+DE,Germany,europe-west10,2024,68,275.82,-22,53.42
+JP-KN,Kansai,asia-northeast2,2024,46,296.19,16,53.21
+US-AZ-SRP,AZ-SRP,non-cloud-data-center,2023,48,263.18,,53.05
+IE,Ireland,non-cloud-data-center,2024,47,329.51,4,48.54
+US-SE-SOCO,SOCO,us-east2,2024,42,340.42,0,44.32
+KR,South Korea,asia-northeast3,2024,37,356.57,2,41.72
+AUS-VIC,Victoria,australia-southeast2,2023,40,455.66,6,40.05
+AU-VIC,Victoria,australia-southeast2,2024,39,454.37,,36.82
+AU-NSW,New South Wales,australia-southeast1,2024,34,497.5,1,33.66
+PL,Poland,europe-central2,2024,40,642.88,9,32.67
+MX-OC,Mexico - Occidental,northamerica-south1,2024,19,305,,32.61
+US-NW-PACE,RMP,us-west3,2024,33,555.17,4,31.52
+IN-UP,Uttar Pradesh,asia-south2,2023,29,529.24,6,31.29
+US-CAR-SC,SC,us-east1,2024,31,575.77,2,28.99
+JP-TK,Tokyo,asia-northeast1,2024,17,452.85,1,27.14
+TW,Taiwan,asia-east1,2024,17,439.29,-1,27.13
+IN-NO,Northern India,asia-south2,2024,29,531.83,,26.28
+AUS-NSW,New South Wales,australia-southeast1,2021,21,598,10,25.47
+SG,Singapore,asia-southeast1,2024,4,366.85,0,24.15
+ID,Indonesia,asia-southeast2,2024,18,560.55,5,24.09
+IL,Israel,me-west1,2024,7,433.75,2,23.3
+QA,Qatar,me-central1,2024,1,366,,17.97
+SA,Saudi Arabia,me-central2,2024,1,382.23,,17.07
+ZA,South Africa,africa-south1,2024,15,656.85,-1,16.47
+IN-MH,Maharashtra,asia-south1,2021,10,670,-2,13.08
+IN-WE,Western India,asia-south1,2024,9,678.76,-5,11.27
+HK,Hong Kong,asia-east2,2024,1,505.02,-27,8.21
+Saudi Arabia,Saudi Arabia,me-central2,2023,0,569,,6.09
+Qatar,Qatar,me-central1,2023,0,575,,5.76

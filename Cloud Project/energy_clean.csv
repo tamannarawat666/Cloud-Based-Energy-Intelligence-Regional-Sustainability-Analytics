@@ -1,0 +1,238 @@
+year,cfe_region,zone_id,cloud_region,location,google_cfe,grid_carbon_intensity,cfe_data_status,carbon_data_status
+2019,New South Wales,AUS-NSW,australia-southeast1,Sydney,0.11,725.0,Available,Available
+2019,Belgium,BE,europe-west1,Belgium,0.68,196.0,Available,Available
+2019,Central Brazil,BR-CS,southamerica-east1,São Paulo,0.87,109.0,Available,Available
+2019,Quebec,CA-QC,northamerica-northeast1,Montréal,,27.0,Missing,Available
+2019,Switzerland,CH,europe-west6,Zurich,,87.0,Missing,Available
+2019,Chile,CL-SEN,non-cloud-data-center,Chile,0.63,300.0,Available,Available
+2019,Germany,DE,europe-west3,Frankfurt,0.61,319.0,Available,Available
+2019,Finland,FI,europe-north1,Finland,0.77,181.0,Available,Available
+2019,Great Britain,GB,europe-west2,London,0.54,257.0,Available,Available
+2019,Hong Kong,HK,asia-east2,Hong Kong,,506.0,Missing,Available
+2019,Indonesia,ID,asia-southeast2,Jakarta,,647.0,Missing,Available
+2019,Ireland,IE,non-cloud-data-center,Ireland,0.42,342.0,Available,Available
+2019,Maharashtra,IN-MH,asia-south1,Mumbai,,752.0,Missing,Available
+2019,Kansai,JP-KN,asia-northeast2,Osaka,,414.0,Missing,Available
+2019,Tokyo,JP-TK,asia-northeast1,Tokyo,,569.0,Missing,Available
+2019,South Korea,KR,asia-northeast3,Seoul,,490.0,Missing,Available
+2019,Netherlands,NL,europe-west4,Netherlands,0.61,474.0,Available,Available
+2019,Singapore,SG,asia-southeast1,Singapore,0.03,493.0,Available,Available
+2019,Taiwan,TW,asia-east1,Taiwan,0.19,541.0,Available,Available
+2019,CAISO,US-CAL-CISO,us-west2,Los Angeles,0.55,248.0,Available,Available
+2019,DUKE,US-CAR-DUK,non-cloud-data-center,North Carolina,0.66,275.0,Available,Available
+2019,SC,US-CAR-SC,us-east1,South Carolina,0.19,500.0,Available,Available
+2019,SPP,US-CENT-SWPP,non-cloud-data-center,Oklahoma,0.96,410.0,Available,Available
+2019,PJM,US-MIDA-PJM,us-east4,Northern Virginia,0.41,383.0,Available,Available
+2019,MISO,US-MIDW-MISO,us-central1,Iowa,0.78,479.0,Available,Available
+2019,BPA,US-NW-BPAT,us-west1,Oregon,0.89,117.0,Available,Available
+2019,NVE,US-NW-NEVP,us-west4,Las Vegas,0.13,491.0,Available,Available
+2019,PACE,US-NW-PACE,us-west3,Salt Lake City,0.25,561.0,Available,Available
+2019,SOCO,US-SE-SOCO,non-cloud-data-center,Georgia,0.26,439.0,Available,Available
+2019,TVA,US-TEN-TVA,non-cloud-data-center,Alabama and Tennessee,0.55,306.0,Available,Available
+2020,New South Wales,AUS-NSW,australia-southeast1,Sydney,0.11,727.0,Available,Available
+2020,Belgium,BE,europe-west1,Belgium,0.79,212.0,Available,Available
+2020,Central Brazil,BR-CS,southamerica-east1,São Paulo,0.88,103.0,Available,Available
+2020,Quebec,CA-QC,northamerica-northeast1,Montréal,,27.0,Missing,Available
+2020,Switzerland,CH,europe-west6,Zurich,,87.0,Missing,Available
+2020,Chile,CL-SEN,non-cloud-data-center,Chile,0.65,290.0,Available,Available
+2020,Germany,DE,europe-west3,Frankfurt,0.63,293.0,Available,Available
+2020,Denmark,DK,non-cloud-data-center,Denmark,0.9,,Available,Missing
+2020,Finland,FI,europe-north1,Finland,0.94,133.0,Available,Available
+2020,Great Britain,GB,europe-west2,London,0.59,231.0,Available,Available
+2020,Hong Kong,HK,asia-east2,Hong Kong,,453.0,Missing,Available
+2020,Indonesia,ID,asia-southeast2,Jakarta,,647.0,Missing,Available
+2020,Ireland,IE,non-cloud-data-center,Ireland,0.46,312.0,Available,Available
+2020,Maharashtra,IN-MH,asia-south1,Mumbai,0.12,721.0,Available,Available
+2020,Kansai,JP-KN,asia-northeast2,Osaka,,442.0,Missing,Available
+2020,Tokyo,JP-TK,asia-northeast1,Tokyo,0.12,554.0,Available,Available
+2020,South Korea,KR,asia-northeast3,Seoul,0.31,457.0,Available,Available
+2020,Netherlands,NL,europe-west4,Netherlands,0.6,410.0,Available,Available
+2020,Singapore,SG,asia-southeast1,Singapore,0.04,493.0,Available,Available
+2020,Taiwan,TW,asia-east1,Taiwan,0.18,540.0,Available,Available
+2020,CAISO,US-CAL-CISO,us-west2,Los Angeles,0.54,253.0,Available,Available
+2020,DUKE,US-CAR-DUK,non-cloud-data-center,North Carolina,0.67,251.0,Available,Available
+2020,SC,US-CAR-SC,us-east1,South Carolina,0.27,480.0,Available,Available
+2020,SPP,US-CENT-SWPP,non-cloud-data-center,Oklahoma,0.92,382.0,Available,Available
+2020,PJM,US-MIDA-PJM,us-east4,Northern Virginia,0.58,361.0,Available,Available
+2020,MISO,US-MIDW-MISO,us-central1,Iowa,0.93,454.0,Available,Available
+2020,BPA,US-NW-BPAT,us-west1,Oregon,0.9,78.0,Available,Available
+2020,NVE,US-NW-NEVP,us-west4,Las Vegas,0.19,455.0,Available,Available
+2020,PACE,US-NW-PACE,us-west3,Salt Lake City,0.28,533.0,Available,Available
+2020,SOCO,US-SE-SOCO,non-cloud-data-center,Georgia,0.42,405.0,Available,Available
+2020,TVA,US-TEN-TVA,non-cloud-data-center,Alabama and Tennessee,0.7,264.0,Available,Available
+2020,ERCOT,US-TEX-ERCO,non-cloud-data-center,Texas,0.37,371.0,Available,Available
+2021,New South Wales,AUS-NSW,australia-southeast1,Sydney,0.21,598.0,Available,Available
+2021,Victoria,AUS-VIC,australia-southeast2,Melbourne,0.31,521.0,Available,Available
+2021,Belgium,BE,europe-west1,Belgium,0.82,110.0,Available,Available
+2021,Central Brazil,BR-CS,southamerica-east1,São Paulo,0.78,129.0,Available,Available
+2021,Ontario,CA-ON,northamerica-northeast2,Toronto,0.92,29.0,Available,Available
+2021,Quebec,CA-QC,northamerica-northeast1,Montréal,1.0,0.0,Available,Available
+2021,Switzerland,CH,europe-west6,Zurich,0.85,86.0,Available,Available
+2021,Chile,CL-SEN,southamerica-west1,Santiago,0.69,190.0,Available,Available
+2021,Germany,DE,europe-west3,Frankfurt,0.6,269.0,Available,Available
+2021,Spain,ES,europe-southwest1,Madrid,,121.0,Missing,Available
+2021,Finland,FI,europe-north1,Finland,0.91,127.0,Available,Available
+2021,France,FR,europe-west9,Paris,,59.0,Missing,Available
+2021,Great Britain,GB,europe-west2,London,0.57,172.0,Available,Available
+2021,Hong Kong,HK,asia-east2,Hong Kong,0.28,360.0,Available,Available
+2021,Indonesia,ID,asia-southeast2,Jakarta,0.13,580.0,Available,Available
+2021,Maharashtra,IN-MH,asia-south1,Mumbai,0.1,670.0,Available,Available
+2021,Uttar Pradesh,IN-UP,asia-south2,Delhi,0.08,671.0,Available,Available
+2021,North Italy,IT,europe-west8,Milan,,298.0,Missing,Available
+2021,Kansai,JP-KN,asia-northeast2,Osaka,0.31,384.0,Available,Available
+2021,Tokyo,JP-TK,asia-northeast1,Tokyo,0.16,464.0,Available,Available
+2021,South Korea,KR,asia-northeast3,Seoul,0.31,425.0,Available,Available
+2021,Netherlands,NL,europe-west4,Netherlands,0.53,283.0,Available,Available
+2021,Poland,PL,europe-central2,Warsaw,0.2,576.0,Available,Available
+2021,Singapore,SG,asia-southeast1,Singapore,0.04,372.0,Available,Available
+2021,Taiwan,TW,asia-east1,Taiwan,0.17,456.0,Available,Available
+2021,CAISO,US-CAL-CISO,us-west2,Los Angeles,0.53,190.0,Available,Available
+2021,SC,US-CAR-SC,us-east1,South Carolina,0.25,434.0,Available,Available
+2021,PJM,US-MIDA-PJM,us-east4,Northern Virginia,0.64,354.13,Available,Available
+2021,PJM,US-MIDA-PJM,us-east5,Columbus,0.64,354.13,Available,Available
+2021,MISO,US-MIDW-MISO,us-central1,Iowa,0.97,394.0,Available,Available
+2021,BPA,US-NW-BPAT,us-west1,Oregon,0.88,60.0,Available,Available
+2021,NVE,US-NW-NEVP,us-west4,Las Vegas,0.21,365.0,Available,Available
+2021,PACE,US-NW-PACE,us-west3,Salt Lake City,0.31,448.0,Available,Available
+2021,ERCOT,US-TEX-ERCO,us-south1,Dallas,0.4,296.0,Available,Available
+2022,New South Wales,AU-NSW,australia-southeast1,Sydney,0.27,538.46,Available,Available
+2022,Victoria,AUS-VIC,australia-southeast2,Melbourne,0.34,489.62,Available,Available
+2022,Belgium,BE,europe-west1,Belgium,0.8,123.35,Available,Available
+2022,Central Brazil,BR-CS,southamerica-east1,Sāo Paulo,0.89,65.11,Available,Available
+2022,Ontario,CA-ON,northamerica-northeast2,Toronto,0.9,36.38,Available,Available
+2022,Quebec,CA-QC,northamerica-northeast1,Montréal,1.0,0.25,Available,Available
+2022,Switzerland,CH,europe-west6,Zurich,0.85,117.86,Available,Available
+2022,Chile,CL-SEN,southamerica-west1,Santiago,0.89,165.47,Available,Available
+2022,Germany,DE,europe-west3,Frankfurt,0.96,413.08,Available,Available
+2022,Germany,DE,europe-west5,N/A,0.96,413.08,Available,Available
+2022,Denmark,DK,non-cloud-data-center,Denmark,0.9,127.53,Available,Available
+2022,Spain,ES,europe-southwest1,Madrid,0.67,159.59,Available,Available
+2022,Finland,FI,europe-north1,Finland,0.97,111.55,Available,Available
+2022,France,FR,europe-west9,Paris,0.87,70.64,Available,Available
+2022,Great Britain,GB,europe-west2,London,0.85,165.52,Available,Available
+2022,Hong Kong,HK,asia-east2,Hong Kong,0.28,360.0,Available,Available
+2022,Indonesia,ID,asia-southeast2,Jakarta,0.13,580.0,Available,Available
+2022,Ireland,IE,non-cloud-data-center,N/A,0.39,320.7,Available,Available
+2022,Israel,IL,me-west1,N/A,0.02,476.15,Available,Available
+2022,Uttar Pradesh,IN-UP,asia-south2,Delhi,0.23,633.0,Available,Available
+2022,Maharashtra,IN-WE,asia-south1,Mumbai,0.24,554.72,Available,Available
+2022,North Italy,IT,europe-west8,Milan,0.42,323.32,Available,Available
+2022,Kansai,JP-KN,asia-northeast2,Osaka,0.32,382.88,Available,Available
+2022,Tokyo,JP-TK,asia-northeast1,Tokyo,0.16,463.18,Available,Available
+2022,South Korea,KR,asia-northeast3,Seoul,0.31,425.43,Available,Available
+2022,Netherlands,NL,europe-west4,Netherlands,0.57,317.26,Available,Available
+2022,Poland,PL,europe-central2,Warsaw,0.24,737.84,Available,Available
+2022,Singapore,SG,asia-southeast1,Singapore,0.04,372.29,Available,Available
+2022,Taiwan,TW,asia-east1,Taiwan,0.18,452.98,Available,Available
+2022,CAISO,US-CAL-CISO,us-west2,Los Angeles,0.56,201.83,Available,Available
+2022,DUKE,US-CAR-DUK,non-cloud-data-center,North Carolina,0.63,260.19,Available,Available
+2022,SC,US-CAR-SC,us-east1,South Carolina,0.26,531.75,Available,Available
+2022,SPP,US-CENT-SWPP,us-central2,Oklahoma,0.87,428.68,Available,Available
+2022,PJM,US-MIDA-PJM,us-east4,Northern Virginia,0.6,354.13,Available,Available
+2022,MISO,US-MIDW-MISO,us-central1,Iowa,0.92,460.31,Available,Available
+2022,BPA,US-NW-BPAT,us-west1,Oregon,0.89,67.39,Available,Available
+2022,NVE,US-NW-NEVP,us-west4,Las Vegas,0.27,395.73,Available,Available
+2022,PACE,US-NW-PACE,us-west3,Salt Lake City,0.31,606.01,Available,Available
+2022,SOCO,US-SE-SOCO,us-east2,Georgia,0.4,379.02,Available,Available
+2022,TVA,US-TEN-TVA,us-east7,Alabama and Tennessee,0.63,307.96,Available,Available
+2022,ERCOT,US-TEX-ERCO,us-south1,Dallas,0.41,342.08,Available,Available
+2022,South Africa,ZA,None,Johannesburg,0.2,619.76,Available,Available
+2023,New South Wales,AU-NSW,australia-southeast1,Sydney,0.33,501.22,Available,Available
+2023,Victoria,AUS-VIC,australia-southeast2,Melbourne,0.4,455.66,Available,Available
+2023,Belgium,BE,europe-west1,Belgium,0.82,122.3,Available,Available
+2023,Central Brazil,BR-CS,southamerica-east1,Sāo Paulo,0.9,56.38,Available,Available
+2023,Ontario,CA-ON,northamerica-northeast2,Toronto,0.87,47.5,Available,Available
+2023,Quebec,CA-QC,northamerica-northeast1,Montréal,1.0,1.78,Available,Available
+2023,Switzerland,CH,europe-west6,Zurich,0.92,58.67,Available,Available
+2023,Chile,CL-SEN,southamerica-west1,Santiago,0.91,137.61,Available,Available
+2023,Germany,DE,europe-west5,N/A,0.9,345.02,Available,Available
+2023,Germany,DE,europe-west3,Frankfurt,0.9,345.02,Available,Available
+2023,Germany,DE,europe-west10,Berlin,0.9,345.02,Available,Available
+2023,Denmark,DK,non-cloud-data-center,Denmark,0.92,95.37,Available,Available
+2023,Spain,ES,europe-southwest1,Madrid,0.76,131.38,Available,Available
+2023,Finland,FI,europe-north1,Finland,0.98,46.36,Available,Available
+2023,France,FR,europe-west9,Paris,0.94,34.01,Available,Available
+2023,Great Britain,GB,europe-west2,London,0.92,136.49,Available,Available
+2023,Hong Kong,HK,asia-east2,Hong Kong,0.28,360.0,Available,Available
+2023,Indonesia,ID,asia-southeast2,Jakarta,0.13,580.0,Available,Available
+2023,Ireland,IE,non-cloud-data-center,N/A,0.43,312.3,Available,Available
+2023,Israel,IL,me-west1,Tel Aviv,0.05,463.13,Available,Available
+2023,Uttar Pradesh,IN-UP,asia-south2,Delhi,0.29,529.24,Available,Available
+2023,Maharashtra,IN-WE,asia-south1,Mumbai,0.14,647.8,Available,Available
+2023,Italy,IT,europe-west12,Turin,0.52,248.74,Available,Available
+2023,Italy,IT,europe-west8,Milan,0.52,248.74,Available,Available
+2023,Kansai,JP-KN,asia-northeast2,Osaka,0.3,384.65,Available,Available
+2023,Tokyo,JP-TK,asia-northeast1,Tokyo,0.16,459.12,Available,Available
+2023,South Korea,KR,asia-northeast3,Seoul,0.35,378.18,Available,Available
+2023,Netherlands,NL,europe-west4,Eemshaven,0.8,235.92,Available,Available
+2023,Poland,PL,europe-central2,Warsaw,0.31,723.34,Available,Available
+2023,Qatar,Qatar,me-central1,Doha,0.0,575.0,Available,Available
+2023,Singapore,SG,asia-southeast1,Singapore,0.04,369.06,Available,Available
+2023,Saudi Arabia,Saudi Arabia,me-central2,Dammam,0.0,569.0,Available,Available
+2023,Taiwan,TW,asia-east1,Taiwan,0.18,450.7,Available,Available
+2023,AZ-SRP,US-AZ-SRP,non-cloud-data-center,Phoenix,0.48,263.18,Available,Available
+2023,CAISO,US-CAL-CISO,us-west2,Los Angeles,0.55,197.73,Available,Available
+2023,DUKE,US-CAR-DUK,non-cloud-data-center,North Carolina,0.63,243.09,Available,Available
+2023,SC,US-CAR-SC,us-east1,South Carolina,0.29,559.73,Available,Available
+2023,SPP,US-CENT-SWPP,us-central2,Oklahoma,0.87,388.48,Available,Available
+2023,PJM,US-MIDA-PJM,us-east4,Northern Virginia,0.52,322.44,Available,Available
+2023,PJM,US-MIDA-PJM,us-east5,Columbus,0.52,322.44,Available,Available
+2023,MISO,US-MIDW-MISO,us-central1,Iowa,0.95,429.73,Available,Available
+2023,BPA,US-NW-BPAT,us-west1,Oregon,0.84,93.59,Available,Available
+2023,NVE,US-NW-NEVP,us-west4,Las Vegas,0.26,372.98,Available,Available
+2023,PACE,US-NW-PACE,us-west3,Salt Lake City,0.29,588.28,Available,Available
+2023,SOCO,US-SE-SOCO,us-east2,Georgia,0.42,356.61,Available,Available
+2023,TVA,US-TEN-TVA,us-east7,Alabama and Tennessee,0.65,294.77,Available,Available
+2023,ERCOT,US-TEX-ERCO,us-south1,Dallas,0.79,321.02,Available,Available
+2023,South Africa,ZA,africa-south1,Johannesburg,0.16,646.02,Available,Available
+2024,New South Wales,AU-NSW,australia-southeast1,Sydney,0.34,497.5,Available,Available
+2024,Victoria,AU-VIC,australia-southeast2,Melbourne,0.39,454.37,Available,Available
+2024,Belgium,BE,europe-west1,Belgium,0.84,103.37,Available,Available
+2024,Central Brazil,BR-CS,southamerica-east1,Sāo Paulo,0.88,67.32,Available,Available
+2024,Ontario,CA-ON,northamerica-northeast2,Toronto,0.84,58.56,Available,Available
+2024,Quebec,CA-QC,northamerica-northeast1,Montréal,0.99,5.48,Available,Available
+2024,Switzerland,CH,europe-west6,Zürich,0.98,15.05,Available,Available
+2024,Chile,CL-SEN,southamerica-west1,Santiago,0.92,238.0,Available,Available
+2024,Germany,DE,europe-west10,Berlin,0.68,275.82,Available,Available
+2024,Germany,DE,europe-west3,Frankfurt,0.68,275.82,Available,Available
+2024,Germany,DE,europe-west5,N/A,0.68,275.82,Available,Available
+2024,Denmark,DK,non-cloud-data-center,Denmark,0.91,70.4,Available,Available
+2024,Spain,ES,europe-southwest1,Madrid,0.87,89.04,Available,Available
+2024,Finland,FI,europe-north1,Finland,0.98,39.32,Available,Available
+2024,France,FR,europe-west9,Paris,0.96,16.3,Available,Available
+2024,Great Britain,GB,europe-west2,London,0.79,105.94,Available,Available
+2024,Hong Kong,HK,asia-east2,Hong Kong,0.01,505.02,Available,Available
+2024,Indonesia,ID,asia-southeast2,Jakarta,0.18,560.55,Available,Available
+2024,Ireland,IE,non-cloud-data-center,Dublin,0.47,329.51,Available,Available
+2024,Israel,IL,me-west1,Tel Aviv,0.07,433.75,Available,Available
+2024,Northern India,IN-NO,asia-south2,Delhi,0.29,531.83,Available,Available
+2024,Western India,IN-WE,asia-south1,Mumbai,0.09,678.76,Available,Available
+2024,Italy,IT,europe-west12,Turin,0.73,201.69,Available,Available
+2024,Italy,IT,europe-west8,Milan,0.73,201.69,Available,Available
+2024,Kansai,JP-KN,asia-northeast2,Osaka,0.46,296.19,Available,Available
+2024,Tokyo,JP-TK,asia-northeast1,Tokyo,0.17,452.85,Available,Available
+2024,South Korea,KR,asia-northeast3,Seoul,0.37,356.57,Available,Available
+2024,Mexico - Occidental,MX-OC,northamerica-south1,Mexico,0.19,305.0,Available,Available
+2024,Netherlands,NL,europe-west4,Eemshaven,0.83,208.81,Available,Available
+2024,Norway,NO,non-cloud-data-center,Oslo,1.0,6.11,Available,Available
+2024,Poland,PL,europe-central2,Warsaw,0.4,642.88,Available,Available
+2024,Qatar,QA,me-central1,Doha,0.01,366.0,Available,Available
+2024,Saudi Arabia,SA,me-central2,Dammam,0.01,382.23,Available,Available
+2024,Sweden,SE,europe-north2,Stockholm,1.0,2.73,Available,Available
+2024,Singapore,SG,asia-southeast1,Singapore,0.04,366.85,Available,Available
+2024,Taiwan,TW,asia-east1,Taiwan,0.17,439.29,Available,Available
+2024,CAISO,US-CAL-CISO,us-west2,Los Angeles,0.63,169.28,Available,Available
+2024,DUKE,US-CAR-DUK,non-cloud-data-center,North Carolina,0.65,245.07,Available,Available
+2024,SC,US-CAR-SC,us-east1,South Carolina,0.31,575.77,Available,Available
+2024,SPP,US-CENT-SWPP,us-central2,Oklahoma,0.88,372.23,Available,Available
+2024,PJM,US-MIDA-PJM,us-east5,Columbus,0.62,323.05,Available,Available
+2024,PJM,US-MIDA-PJM,us-east4,Northern Virginia,0.62,323.05,Available,Available
+2024,MISO,US-MIDW-MISO,us-central1,Iowa,0.87,412.72,Available,Available
+2024,BPA,US-NW-BPAT,us-west1,Oregon,0.87,79.23,Available,Available
+2024,NVE,US-NW-NEVP,us-west4,Las Vegas,0.64,357.3,Available,Available
+2024,RMP,US-NW-PACE,us-west3,Salt Lake City,0.33,555.17,Available,Available
+2024,SOCO,US-SE-SOCO,us-east2,Georgia,0.42,340.42,Available,Available
+2024,AZ-SRP,US-SW-SRP,non-cloud-data-center,Phoenix,0.52,243.46,Available,Available
+2024,TVA,US-TEN-TVA,us-east7,Alabama and Tennessee,0.63,310.28,Available,Available
+2024,ERCOT,US-TEX-ERCO,us-south1,Dallas,0.94,302.95,Available,Available
+2024,South Africa,ZA,africa-south1,Johannesburg,0.15,656.85,Available,Available
