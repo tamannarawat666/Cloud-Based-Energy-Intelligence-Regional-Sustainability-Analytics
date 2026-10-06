@@ -273,31 +273,6 @@ Sustainability should be considered alongside other cloud-region selection facto
 
 ---
 
-# 📁 Repository Structure
-
-```text
-Cloud-Based-Energy-Intelligence-Regional-Sustainability-Analytics/
-│
-├── README.md
-│
-├── Cloud Project/
-│   └── cloud dashboard.png
-│
-├── data/
-│   ├── energy_clean.csv
-│   ├── regional_sustaninability_analysis.csv
-│   └── regional_sstainability_score.csv
-│
-├── bigquery/
-│   ├── 01_data_exploration.sql
-│   ├── 02_energy_clean.sql
-│   └── 03_regional_analysis.sql
-│
-└── python/
-    └── energy_analysis.ipynb
-```
-
----
 
 # 🎓 Skills Demonstrated
 
